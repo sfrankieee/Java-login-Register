@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="ISO-8859-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        body {
+            background-color: #e9ecef; /* Light grey background color */
+        }
+
+        .form-container {
+            background-color: #ffffff; /* White background for the form */
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add some shadow for depth */
+        }
+
+        .card-header {
+            background-color: #dc3545; /* Red background for header */
+            color: white;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        .btn-danger {
+            background-color: #dc3545; /* Red button color */
+            border-color: #dc3545;
+        }
+
+        .btn-danger:hover {
+            background-color: #c82333; /* Darker red on hover */
+            border-color: #bd2130;
+        }
+    </style>
+</head>
+<body class="container-fluid">
+
+<div class="row justify-content-center">
+    <div class="col-md-6 col-lg-4">
+        <div class="form-container">
+            <h1 class="card-header">Registration Form</h1>
+            <form action="Registration" method="post">
+                <div class="form-group">
+                    <label for="uname">Name</label>
+                    <input type="text" class="form-control" name="uname" id="uname" placeholder="Enter your name" required="required">
+                </div>
+
+                <div class="form-group">
+                    <label for="uemail">Email</label>
+                    <input type="email" class="form-control" name="uemail" id="uemail" placeholder="Enter your email" required="required">
+                </div>
+
+                <div class="form-group">
+                    <label for="upass">Password</label>
+                    <input type="password" class="form-control" name="upass" id="upass" placeholder="Enter your password" required="required">
+                </div>
+
+                <div class="form-group">
+                    <label for="uphone">Phone</label>
+                    <input type="text" class="form-control" name="uphone" id="uphone" placeholder="Enter your phone number" required="required">
+                </div>
+
+                <button type="submit" class="btn btn-danger btn-block">Register</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
