@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>crud_operation_project</display-name>
+  <servlet>
+  	<servlet-name>aaa</servlet-name>
+  	<servlet-class>project.To_Signin_Page_Servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>aaa</servlet-name>
+  	<url-pattern>/signin</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>aaa2</servlet-name>
+  	<servlet-class>project.To_Signin_Page_Servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>aaa2</servlet-name>
+  	<url-pattern>/signin2</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+  	<servlet-name>aaa3</servlet-name>
+  	<servlet-class>project.User_Login</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>aaa3</servlet-name>
+  	<url-pattern>/userlogin</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>aaa4</servlet-name>
+  	<servlet-class>project.Admin_Login</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>aaa4</servlet-name>
+  	<url-pattern>/adminlogin</url-pattern>
+  </servlet-mapping>
+  
+    
+
+
+  
+  <servlet>
+  	<servlet-name>bbb</servlet-name>
+  	<servlet-class>project.To_Signup_Page_Servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>bbb</servlet-name>
+  	<url-pattern>/signup</url-pattern>
+  </servlet-mapping>
+  
+  
+    <servlet>
+  	<servlet-name>bbb2</servlet-name>
+  	<servlet-class>project.To_Signup_Page_Servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>bbb2</servlet-name>
+  	<url-pattern>/signup2</url-pattern>
+  </servlet-mapping>
+
+  
+  <servlet>
+  	<servlet-name>ccc</servlet-name>
+  	<servlet-class>project.Signup_Into</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ccc</servlet-name>
+  	<url-pattern>/signupinto</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+  	<servlet-name>ddd</servlet-name>
+  	<servlet-class>project.Signin_Into</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ddd</servlet-name>
+  	<url-pattern>/signininto</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>eee</servlet-name>
+  	<servlet-class>project.Home_Page_Servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>eee</servlet-name>
+  	<url-pattern>/details</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>fff</servlet-name>
+  	<servlet-class>project.Delete_Servlet_Page</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>fff</servlet-name>
+  	<url-pattern>/delete</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>ggg</servlet-name>
+  	<servlet-class>project.Edit_Servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ggg</servlet-name>
+  	<url-pattern>/edit</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  	<servlet-name>hhh</servlet-name>
+  	<servlet-class>project.Update_Servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>hhh</servlet-name>
+  	<url-pattern>/update</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>admin</servlet-name>
+  	<servlet-class>project.Into_Admin_Portal</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>admin</servlet-name>
+  	<url-pattern>/admins</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>iii</servlet-name>
+  	<servlet-class>project.Admin_Edit_Servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>iii</servlet-name>
+  	<url-pattern>/adminedit</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  	<servlet-name>jjj</servlet-name>
+  	<servlet-class>project.Admin_Delete_Servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>jjj</servlet-name>
+  	<url-pattern>/admindelete</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  	<servlet-name>kkk</servlet-name>
+  	<servlet-class>project.Updated_By_Admin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>kkk</servlet-name>
+  	<url-pattern>/updatedbyadmin</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
+  
+  
+  
+  <error-page>
+  	<exception-type>java.util.Throwable</exception-type>
+  	<location>/exception.html</location>
+  </error-page>
+</web-app>
